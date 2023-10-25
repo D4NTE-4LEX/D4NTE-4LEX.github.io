@@ -56,16 +56,17 @@ form{
     width: 70%;
     margin: 0 auto;
 }
-imput[type=text], imput[type="email"], textarea{
+input[type=text], input[type="email"], textarea{
     width: 50%;
     padding: 1em;
     border-radius: 1em;
     border: 1px solid #ad20f3;
 }
-imput[type="submit"]{
+input[type="submit"]{
     background-color: #4e4747;
     color: #ffffff;
     border: none;
+    border-radius: 1em;
     padding: 1em 2em;
     cursor: pointer;
 }
