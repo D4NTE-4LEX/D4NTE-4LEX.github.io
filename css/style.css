@@ -20,6 +20,22 @@ footer{
     padding: 1em;
     border-radius: 1em 1em 0 0;
 }
+
+button{
+    background-color: #4e4747;
+    color: #ffffff;
+    border: none;
+    border-radius: 1em;
+    padding: 1em 2em;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #343235;
+}
+button:active{
+    background-color: #868585;
+}
+
 nav ul {
     list-style: none;
     padding: 0;
@@ -56,20 +72,29 @@ h2{
 form{
     width: 70%;
     margin: 0 auto;
+    display: grid;
+    row-gap: 1em;
 }
-input[type=text], input[type="email"], textarea{
-    width: 50%;
+input[type=text], input[type="email"], input[type="number"], textarea{
+    width: 100%;
     padding: 1em;
     border-radius: 1em;
     border: 1px solid #ad20f3;
 }
-input[type="submit"]{
+input[type="button"]{
+    max-width: 50%;
     background-color: #4e4747;
     color: #ffffff;
     border: none;
     border-radius: 1em;
     padding: 1em 2em;
     cursor: pointer;
+}
+input[type="button"]:hover{
+    background-color: #343235;
+}
+input[type="button"]:active{
+    background-color: #868585;
 }
 aside{
     background-color: #00000085;
