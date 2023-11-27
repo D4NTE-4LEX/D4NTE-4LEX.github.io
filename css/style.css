@@ -182,7 +182,53 @@ code{
     margin-bottom: 1em;
     border: #b380cc 1px solid;
 }
-
+/*JQuery html*/
+#taskContainer{
+    color:#ffffff;
+    padding: 1em;
+    background-color: #040c18;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    border: #b380cc 1px solid;
+}
+#taskContainer ul{
+    list-style:georgian;
+    padding: 0;
+}
+#taskContainer ul li{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+#taskContainer ul li p{
+    display: inline-block;
+}
+.delete:hover{
+    background-color: #ff0000;
+    cursor: pointer;
+}
+#taskContainer ul li p:hover{
+    text-decoration: line-through;
+}
+/*JQuery Exercices*/
+#jquery .exercises{
+    color:#ffffff;
+    padding: 1em;
+    background-color: #040c18;
+    border-radius: 1em;
+    margin-bottom: 1em;
+    border: #b380cc 1px solid;
+}
+#panelEx5, #flipEx5, #panelEx7, #flipEx7{
+    padding: 5px;
+    text-align: center;
+    background-color: rgb(104, 69, 129);
+    border: solid 1px rgb(180, 53, 197);
+}
+#panelEx5, #panelEx7{	
+    padding: 50px;
+    display: none;
+}
 @media screen and (max-width: 1270px){
     #newSection{
         height: auto;

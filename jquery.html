@@ -5,7 +5,8 @@
         <meta name="description" content="It is my simple project in html.">
         <title>Proyecto en HTML</title>
         <link rel="stylesheet" type="text/css" href="css/style.css">
-        <script type="text/javascript" src="js/dom.js"></script>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
     </head>
 
     <body>
@@ -45,19 +46,16 @@
                 </ul>
             </nav>
         </header>
-        <main id="domTests">
-            <h1>Ejercicio DOM y JS</h1>
-            <p>Haz clic en el botón para interactuar: </p>
-            <button id="colorChangebtn">Canbiar el color</button>
-            <div id="output">
-                <p>Este es un texto de ejemplo</p>
+        <main id="jquery">
+            <h1>Lista de tareas</h1>
+            <div id="taskContainer">
+                <ul id="taskList"></ul>
+                <form id="taskForm">
+                    <input type="text" id="newTask" placeholder="Nueva tarea" required>
+                    <button type="submit">Añadir Tarea</button>
+                </form>
+
             </div>
-
-            <h2>Tabla dinámica</h2>
-            <div id="tableContainer"></div>
-
-            <h2>Formulario dinámico</h2>
-            <div id="formContainer"></div>
         </main>
         <footer>
             <p>Derechos de la página reservados 2023. @D4NTE4LEX</p>
