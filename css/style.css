@@ -81,7 +81,7 @@ form{
     row-gap: 1em;
 }
 input[type=text], input[type="email"], input[type="number"], textarea{
-    width: 100%;
+    width: auto;
     padding: 1em;
     border-radius: 1em;
     border: 1px solid #ad20f3;
@@ -229,6 +229,29 @@ code{
     padding: 50px;
     display: none;
 }
+
+#ex11{
+    padding: 5px;
+    background-color: rgb(104, 69, 129);
+    border: solid 1px rgb(180, 53, 197);
+}
+
+.important{
+    font-weight: bold;
+    font-size: xx-large;
+}
+.blue{
+    color: blue;
+}
+#divEx14{
+    height: 100px;
+    width: 300px;
+    padding: 10px;
+    margin: 3px;
+    background-color: rgb(104, 69, 129);
+    border: solid 1px rgb(180, 53, 197);
+}
+
 @media screen and (max-width: 1270px){
     #newSection{
         height: auto;
