@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="It is my simple project in html.">
+        <title>Proyecto en HTML</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <!--JQuery-->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <!--JQuery UI-->
+        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js" integrity="sha256-lSjKY0/srUM9BE3dPm+c4fBo1dky2v27Gdjm2uoZaL0=" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/base/jquery-ui.min.css" integrity="sha512-ELV+xyi8IhEApPS/pSj66+Jiw+sOT1Mqkzlh8ExXihe4zfqbWkxPRi8wptXIO9g73FSlhmquFlUOuMSoXz5IRw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!--js-->
+        <script type="text/javascript" src="js/jqueryUI.js"></script>
+    </head>
+
+    <body>
+        
+        <header>
+            <!-- Encabezado del sitio -->
+            <h1>Encabezado del sitio</h1>
+            <nav>
+                <ul id="routes">
+                    
+                </ul>
+            </nav>
+            <script src="js/routes.js"></script>
+        </header>
+        <main id="jquery">
+            <h1>Preguntas frecuentes</h1>
+            <div id="accordion">
+                <h3>Pregunta 1</h3>
+                <div>
+                    <p>Respuesta pregunta 1</p>
+                </div>
+
+                <h3>Pregunta 2</h3>
+                <div>
+                    <p>Respuesta pregunta 2</p>
+                </div>
+
+                <h3>Pregunta 3</h3>
+                <div>
+                    <p>Respuesta pregunta 3</p>
+                </div>
+            </div>
+            <h1>Datepicker</h1>
+            <p>Seleccione una fecha: <input type="text" id="calendario"></p>
+
+            <h1>Ventana emergente</h1>
+            <button id="emergente">Abrir ventana emergente</button>
+
+            <div id="dialogo">
+                <p>Este es un cuadro de dialogo simple.</p>
+            </div>
+
+            <h1>Buscador</h1>
+            <label for="searcher">Buscar: </label>
+            <input type="text" id="search">
+
+            <h1>Caja dinámica</h1>
+            <div id="box" class="ui-widget-content">
+                <p>Mueve esta caja...</p>
+            </div>
+
+            <h1>Progress Bar</h1>
+            <div id="progressbar"></div>
+
+            <h1>Color Animation</h1>
+            <div class="toggler">
+                <div id="effect" class="ui-widget-content ui-corner-all">
+                  <h3 class="ui-widget-header ui-corner-all">Animate</h3>
+                  <p>
+                    Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing ut, luctus sed, hendrerit vitae, mi.
+                  </p>
+                </div>
+            </div>
+            <button id="toggle-button" class="ui-state-default ui-corner-all">Toggle Effect</button>
+            
+            <h1>Easing</h1>
+            <div id="graphs"></div>
+        </main>
+        <footer>
+            <p>Derechos de la página reservados 2023. @D4NTE4LEX</p>
+        </footer>
+    </body>
+</html>

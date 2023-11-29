@@ -251,7 +251,11 @@ code{
     background-color: rgb(104, 69, 129);
     border: solid 1px rgb(180, 53, 197);
 }
-
+/*JQuery UI*/
+.toggler { width: 500px; height: 200px; position: relative; }
+#toggle-button { padding: .5em 1em; text-decoration: none; }
+#effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+#effect h3 { margin: 0; padding: 0.4em; text-align: center; }
 @media screen and (max-width: 1270px){
     #newSection{
         height: auto;
