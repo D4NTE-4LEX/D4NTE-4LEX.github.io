@@ -24,7 +24,7 @@ const ROUTES = [
         name: 'Section'
     },
     {
-        path: 'domtests.html',
+        path: 'domTests.html',
         name: 'Pruebas con DOM'
     },
     {
